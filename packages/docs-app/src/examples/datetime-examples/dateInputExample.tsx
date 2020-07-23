@@ -65,6 +65,7 @@ export class DateInputExample extends React.PureComponent<IExampleProps, IDateIn
                     defaultValue={new Date()}
                     onChange={this.handleDateChange}
                     popoverProps={{ position: Position.BOTTOM }}
+                    timePickerProps={{ showArrowButtons: true }}
                 />
                 <MomentDate date={date} />
             </Example>
