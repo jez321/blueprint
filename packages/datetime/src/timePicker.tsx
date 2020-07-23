@@ -15,6 +15,7 @@
  */
 
 import {
+    Button,
     Classes as CoreClasses,
     DISPLAYNAME_PREFIX,
     HTMLSelect,
@@ -22,11 +23,9 @@ import {
     IProps,
     Keys,
     Utils as BlueprintUtils,
-    Button,
 } from "@blueprintjs/core";
 import classNames from "classnames";
 import * as React from "react";
-
 import * as Classes from "./common/classes";
 import * as DateUtils from "./common/dateUtils";
 import {
@@ -249,7 +248,7 @@ export class TimePicker extends React.Component<ITimePickerProps, ITimePickerSta
                 minimal={true}
                 className={classes}
                 onClick={onClick}
-            ></Button>
+            />
         );
     }
 
