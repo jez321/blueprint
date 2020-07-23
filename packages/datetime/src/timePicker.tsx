@@ -249,7 +249,6 @@ export class TimePicker extends React.Component<ITimePickerProps, ITimePickerSta
                 minimal={true}
                 className={classes}
                 onClick={onClick}
-                tabIndex={-1}
             ></Button>
         );
     }
